@@ -1,0 +1,58 @@
+.myAppointmentWrapper {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  background-color: aquamarine;
+  background-image: url("@/assets/qrcodeBg.jpeg");
+}
+
+.myAppointmentWrapper .exit {
+  width: 60px;
+  height: 60px;
+  background-image: url("@/assets/exit.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  right: 20px;
+  top: 20px;
+}
+
+.myAppointmentWrapper .userName {
+  position: absolute;
+  top: 340px;
+  left: 30px;
+  font-size: 34px;
+}
+
+.myAppointmentWrapper .userSession {
+  display: block;
+  width: 90%;
+  position: absolute;
+  top: 450px;
+  left: 30px;
+  font-size: 32px;
+  text-indent: 40px;
+  line-height: 60px;
+}
+
+.myAppointmentWrapper .qrcodeBox {
+  width: 500px;
+  height: 500px;
+  position: absolute;
+  top: 54%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 1px solid #000;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.myAppointmentWrapper .btn {
+  width: 100vw;
+  position: absolute;
+  bottom: 190px;
+  display: flex;
+  justify-content: space-evenly;
+}
